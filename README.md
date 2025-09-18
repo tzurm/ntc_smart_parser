@@ -49,7 +49,8 @@ Example:
   ]
 } 
 ```
-When parsing:
+
+## When parsing:
 
 Show ip route_clean_part9.log → matched to show ip route → loads cisco_ios_show_ip_route.textfsm
 sh int Catalyst_clean_part2.log → matched to show interface → loads cisco_ios_show_interface.textfsm
