@@ -47,24 +47,25 @@ Example:
     "sh int*",
     "show int*"
   ]
-}
+} 
+```
 When parsing:
 
 Show ip route_clean_part9.log → matched to show ip route → loads cisco_ios_show_ip_route.textfsm
 sh int Catalyst_clean_part2.log → matched to show interface → loads cisco_ios_show_interface.textfsm
-\
+
 This mapping normalizes inconsistent filenames so the correct template is always used.
 
 
 
-🚀 Usage
+## 🚀 Usage
 
 python parser.py -i <input_folder> -o <output_folder>
 -i → folder with raw .log files (can contain subfolders)
 -o → destination folder for JSON output
 
-📌 Example
-
+## 📌 Example
+```
 logs/
 ├── Router1/
 │   └── Show ip route_clean_part1.log
@@ -80,10 +81,10 @@ results/
 ├── show_ip_route_output.json
 ├── show_interface_output.json
 └── show_vlan_output.json
-
+```
 
 🛠 Example Record
-
+``` json
 {
   "NETWORK": "192.168.1.0",
   "MASK": "24",
@@ -97,7 +98,9 @@ results/
   "device_ip": "1.1.1.1",
   "timestamp": "2025-09-18 10:45"
 }
-✅ Notes
+``` 
+
+## ✅ Notes
 Currently configured for Cisco IOS, but can be extended to other vendors by changing PLATFORM and adding mappings.
 
 If no template is found for a command, the file is skipped.
