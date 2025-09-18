@@ -1,0 +1,33 @@
+{
+  "show vlan": [
+    "show vlan*",
+    "sh vlan*"
+  ],
+  "show ip route": [
+    "show ip route*",
+    "sh ip route*"
+  ],
+  "show vrrp all": [
+    "show vrrp all*",
+    "show vrrp detail*",
+    "sh vrrp*"
+  ],
+  "show interface": [
+    "show interface*",
+    "sh int*",
+    "show int*"
+  ],
+  "show mac address-table": [
+    "show mac address-table*",
+    "sh mac address-table*"
+  ],
+  "show ip int brief": [
+    "show ip int brief*",
+    "sh ip int brief*",
+    "sh ip int*"
+  ],
+  "show ip arp": [
+    "show ip arp*",
+    "sh ip arp*"
+  ]
+}
