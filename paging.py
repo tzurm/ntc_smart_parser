@@ -9,7 +9,7 @@ SEPARATORS = ['__', 'pop up']
 MAIN_FOLDER = r'c:\main'
 
 # Folders to exclude
-EXCLUDED_FOLDERS = ['paging.py', 'output_paging', 'scripts', 'scripts-test']
+EXCLUDED_FOLDERS = ['paging.py', 'parser.py', 'output_paging', 'scripts']
 
 # Output folder
 OUTPUT_FOLDER = os.path.join(r'c:\main\output_paging')
