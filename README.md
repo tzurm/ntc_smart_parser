@@ -18,6 +18,7 @@ A Python CLI tool for parsing raw command outputs (Cisco IOS or other vendor) in
 
 
 ## 📂 Folder Structure
+```
 project/
 │
 ├── ntc-templates/ # Cloned NTC templates repo
@@ -26,7 +27,7 @@ project/
 ├── commands_map.json # Mapping of filenames → commands → templates
 ├── parser.py # Main parsing script
 └── output/ # JSON results per command
-
+```
 
 
 ## 📄 `commands_map.json`
